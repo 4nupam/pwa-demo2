@@ -1,0 +1,207 @@
+{
+  "restaurant": {
+    "name": "21 Gun Salute",
+    "tagline": "A Royal Indian Dining Experience",
+    "location": "Sector 29, Gurugram, India",
+    "contact": {
+      "phone": "+91-9876543210",
+      "email": "reservations@21gunsalute.in",
+      "address": "SCO 35-36, First Floor, Sector 29, Gurugram, Haryana"
+    },
+    "hours": {
+      "time": "12:00 PM - 12:00 AM"
+    },
+    "features": [
+      "Fine Dining",
+      "Bar",
+      "Live Music",
+      "Outdoor Seating",
+      "Valet Parking"
+    ],
+    "menu": [
+      {
+        "category": "Royal Starters",
+        "type": "food",
+        "items": [
+          {
+            "id": "RS001",
+            "name": "Shahi Galouti Kebab",
+            "description": "Melt-in-mouth minced lamb kebabs infused with royal Awadhi spices.",
+            "price": 499,
+            "veg": false,
+            "spicy_level": 3,
+            "available": true,
+            "rating": 4.9,
+            "image": "https://images.pexels.com/photos/533325/pexels-photo-533325.jpeg",
+            "tags": ["Awadhi", "Non-Veg", "Royal"],
+            "customization": {
+              "portion": ["Single", "Double"],
+              "accompaniments": ["Mint Chutney", "Onion Salad"]
+            }
+          },
+          {
+            "id": "RS002",
+            "name": "Dahi Ke Kebab",
+            "description": "Delicately spiced hung-curd patties crisped on tawa, a Mughlai veg delight.",
+            "price": 379,
+            "veg": true,
+            "spicy_level": 2,
+            "available": true,
+            "rating": 4.6,
+            "image": "https://images.pexels.com/photos/1061641/pexels-photo-1061641.jpeg",
+            "tags": ["Vegetarian", "Mughlai"],
+            "customization": {
+              "dip": ["Mint Chutney", "Mango Relish"]
+            }
+          }
+        ]
+      },
+      {
+        "category": "Main Course - Indian Royal",
+        "type": "food",
+        "items": [
+          {
+            "id": "MC001",
+            "name": "Murg Makhani Maharaja",
+            "description": "21 Gun Salute's signature butter chicken recipe passed through generations.",
+            "price": 599,
+            "veg": false,
+            "spicy_level": 2,
+            "available": true,
+            "rating": 5,
+            "image": "https://t4.ftcdn.net/jpg/02/42/39/29/360_F_242392945_5Xc5VjsBFUMFR3ZZdQV1FL6LgB0XIvhD.webp",
+            "tags": ["Butter Chicken", "House Special"],
+            "customization": {
+              "portion": ["Half", "Full"],
+              "spice_level": ["Mild", "Medium", "Spicy"]
+            }
+          },
+          {
+            "id": "MC002",
+            "name": "Navratan Korma",
+            "description": "A rich, mildly sweet Mughlai curry made with 9 vegetables, nuts & paneer.",
+            "price": 449,
+            "veg": true,
+            "spicy_level": 1,
+            "available": true,
+            "rating": 4.7,
+            "image": "https://imgs.search.brave.com/FncX1W1fwhCq4OUtTJTgXm0JD_N_DrLiqBmpqzqN1Ns/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9uYXZy/YXRhbi1rb3JtYS1u/YXZyYXRhbi1rb3Jt/YS1uYXZyYXRuYS1r/dXJtYS1yaWNoLW11/Z2hsYWktZ3Jhdnkt/c3dlZXQtY3JlYW15/LWdyYXZ5LXBhbmVl/ci12ZWdldGFibGVz/LTEwMTQ3MDY5Ni5q/cGc",
+            "tags": ["Vegetarian", "Creamy"],
+            "customization": {
+              "dry_fruits": ["With Dry Fruits", "Without Dry Fruits"]
+            }
+          }
+        ]
+      },
+      {
+        "category": "Breads & Rice",
+        "type": "food",
+        "items": [
+          {
+            "id": "BR001",
+            "name": "Royal Garlic Naan",
+            "description": "Soft tandoor naan topped with garlic butter & coriander.",
+            "price": 99,
+            "veg": true,
+            "spicy_level": 0,
+            "available": true,
+            "rating": 4.8,
+            "image": "https://imgs.search.brave.com/86TTbmHHyXWnqNsclN_vuPBj9ZtLBnpD2mDC5Gf_kp4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/Mzk3LzU3OC9zbWFs/bC9kZWxpY2lvdXMt/Z2FybGljLW5hYW4t/YnJlYWQtZ2Fybmlz/aGVkLXdpdGgtZnJl/c2gtaGVyYnMtb24t/cGxhdGUtcGhvdG8u/anBn",
+            "tags": ["Naan", "Tandoor"],
+            "customization": {
+              "type": ["Butter", "Cheese"]
+            }
+          },
+          {
+            "id": "BR002",
+            "name": "Zafrani Mutton Biryani",
+            "description": "Saffron-rich dum biryani layered with spiced mutton and fragrant basmati.",
+            "price": 599,
+            "veg": false,
+            "spicy_level": 4,
+            "available": true,
+            "rating": 4.9,
+            "image": "https://imgs.search.brave.com/rj5HUT4quQQ5SzD8POCGm3uI7dbCvb6FZYk4DfO9Rog/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mb29k/ZnVzaW9uLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMC8w/Ni9NdXR0b24temFm/cmFuaS1CaXJ5YW5p/LVJlY2lwZS1ieS1G/b29kLWZ1c2lvbi0z/LTMwMHgyNDUuanBn/P3Y9MTU5MjkxMjMx/OQ",
+            "tags": ["Biryani", "Dum", "Zafrani"],
+            "customization": {
+              "add_egg": ["No Egg", "Boiled Egg"],
+              "accompaniment": ["Raita", "Mirchi Salan"]
+            }
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "type": "food",
+        "items": [
+          {
+            "id": "DS001",
+            "name": "Royal Paan Ice Cream",
+            "description": "Betel leaf infused ice cream topped with gulkand and tutti frutti.",
+            "price": 199,
+            "veg": true,
+            "spicy_level": 0,
+            "available": true,
+            "rating": 4.6,
+            "image": "https://imgs.search.brave.com/aQYBD1NlAQd6Sc8OviajrWLXr8drICh38vn1DgcWWXs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA4LzQ2LzQ4LzQ3/LzM2MF9GXzg0NjQ4/NDcyMV9zYUwxbG92/MERBMzVHcWltZzlP/UmNwc1oyRTUxWllJ/bi5qcGc",
+            "tags": ["Fusion", "Frozen", "Desi"],
+            "customization": {
+              "toppings": ["Gulkand", "Chocolate Chips", "None"]
+            }
+          },
+          {
+            "id": "DS002",
+            "name": "Shahi Tukda",
+            "description": "Deep-fried bread soaked in saffron milk and topped with dry fruits.",
+            "price": 179,
+            "veg": true,
+            "spicy_level": 0,
+            "available": true,
+            "rating": 4.8,
+            "image": "https://imgs.search.brave.com/Iu7LZXWfj_PZbZbgp8Z74MmUFhz372eBm0uMr8ma3zI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE1/Mjg2MjkwNy9waG90/by9zaGFoaS10dWty/YS10dWtkYS1vci1k/b3VibGUta2EtbWVl/dGhhLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz0zdFJ3LTlC/RDVGeDU0blp0TjRw/WF9KUVplWFdPcEdq/c2czc296aUNBemZN/PQ",
+            "tags": ["Mughlai", "Royal"]
+          }
+        ]
+      },
+      {
+        "category": "Bar & Liquor",
+        "type": "liquor",
+        "items": [
+          {
+            "id": "LQ001",
+            "name": "Single Malt Collection",
+            "description": "Choose from Glenlivet 12, Glenfiddich 15, or Talisker.",
+            "price": 321,
+            "type": "Whiskey",
+            "available": true,
+            "rating": 4.9,
+            "image": "https://imgs.search.brave.com/uxyAhZ95zy4miaZHfoemSuxUOPYUnNKoylDi1o6Z3rA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzEzLzE0Lzc3LzIz/LzM2MF9GXzEzMTQ3/NzIzNDlfV3BEWWJM/WWhDNkZyVlRyazhK/ZEt5QnBSSFFkVDVD/NVouanBn",
+            "tags": ["Scotch", "Premium"]
+          },
+          {
+            "id": "LQ002",
+            "name": "Royal Cocktails",
+            "description": "Signature cocktails with an Indian twist.",
+             "price": 321,
+            "type": "Cocktail",
+            "available": true,
+            "rating": 4.7,
+            "image": "https://imgs.search.brave.com/Y9D2lCfSZNbhS7EVEjtsiqPUhKn53fUomXgEHAsXJds/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzgzLzQzLzM1/LzM2MF9GXzgzNDMz/NTk0XzB4bzBNNHI4/V1BKRnFWa3RGVXU3/dWJrbjgzMXQ0a3B1/LmpwZw",
+            "tags": ["Signature", "Seasonal"]
+          },
+          {
+            "id": "LQ003",
+            "name": "Wines by Glass",
+            "description": "Selection of Indian & imported wines.",
+             "price": 232,
+            "type": "Wine",
+            "available": true,
+            "rating": 4.5,
+            "image": "https://imgs.search.brave.com/1EJ40m7gFb2tujvbtsn4TBKUl4cGMjBKngI8h6rdf7Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/dmlkZW8vMjAyMC8x/MS8yMC81NjkxNC00/ODE5NjE1MTVfdGlu/eS5qcGc",
+            "tags": ["Wine", "Glass"]
+          }
+        ]
+      }
+    ]
+  }
+}

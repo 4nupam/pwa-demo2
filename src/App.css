@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* === 21 Gun Salute Global Styles Enhanced === */
+
+/* Root Variables */
+:root {
+  --color-burgundy-red: #B02E0C;           /* Warm & rich red for appetizing effect */
+  --color-sunset-orange: #FF7F50;          /* Vibrant, inviting energy */
+  --color-cream-white: #FFF8F0;            /* Softer than stark white for elegance */
+  --color-slate-black: #2C2C2C;            /* Slightly lighter black for modern contrast */
+  --color-warm-gold: #F2C94C;              /* Brighter gold with soft glow */
+  --color-mint-green: #27AE60;             /* Refreshing and healthy vibe */
+  --color-chocolate-brown: #5C4033;        /* Deep brown for rustic/earthy touch */
+  --color-pomegranate-red: #C0392B;        /* Strong red alternative for call to actions */
+  --color-honey-yellow: #FFC107;           /* Cheerful highlight color */
+
+  --font-primary: 'Playfair Display', serif;
+  --font-secondary: 'Open Sans', sans-serif;
+}
+
+
+/* Reset & Base */
+* {
+ overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-ivory-white);
+  color: var(--color-charcoal-black);
+  font-family: var(--font-secondary);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+
